@@ -1,8 +1,13 @@
 body {
-  background-color: #53849b;
+  background-color: #c2e4f4;
+
 }
 
 h1 {
-  color: rgb(94, 94, 190);
+  color: rgb(43, 46, 48);
   font-size: 40px;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
