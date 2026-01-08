@@ -20,7 +20,7 @@ h1 {
   position: relative;
   width: 100%;
   height: clamp(220px, 35vh, 520px);
-  background-image: url('images/banner.jpg');
+  background-image: url('images/Website banner.png');
   background-size: cover;
   background-position: center;
   display: flex;
