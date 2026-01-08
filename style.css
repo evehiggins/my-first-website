@@ -1,13 +1,59 @@
+/* Base styles */
+* { box-sizing: border-box; }
 body {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
   background-color: #c2e4f4;
-
+  color: rgb(43, 46, 48);
 }
 
 h1 {
   color: rgb(43, 46, 48);
-  font-size: 40px;
-  font-family: "Libre Franklin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.05;
 }
+
+/* Hero banner */
+.hero {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 35vh, 520px);
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.35));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 1rem;
+}
+
+.hero-sub {
+  margin-top: 0.5rem;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  color: rgba(255,255,255,0.95);
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .hero { height: clamp(180px, 30vh, 360px); }
+  h1 { font-size: clamp(1.25rem, 6vw, 2rem); }
+}
+
+.intro { padding: 1.25rem; }

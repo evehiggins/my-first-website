@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My First Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-#link to the style sheet#
-<link rel="stylesheet" href="style.css">
-
-#text for front page
 <body>
-    <h1>Hello, this is my first website</h1>
-    <p>Welcome to HTML!</p>
+
+    <header class="hero" role="banner" aria-label="Site banner">
+        <div class="hero-content">
+            <h1>Hello, this is my first website</h1>
+            <p class="hero-sub">Welcome to HTML!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Some content below the banner.</p>
+            <img src="images/Website banner.png" alt="Description of image">
+        </section>
+    </main>
 
 </body>
 </html>
 
 #link to images
 <img src="images/photo.jpg" alt="Description of image">
+
+#Hero Image, Banner
