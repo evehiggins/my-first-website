@@ -6,16 +6,75 @@ body {
   background-color: #c2e4f4;
   color: rgb(43, 46, 48);
 }
-
+header {
+  background-color: #f0f8ff;
+  padding: 1rem 0;
+  text-align: center;
+}
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: rgb(43, 46, 48);
+  font-weight: 600;
+}
+main {
+  display: flex;
+  flex-direction: wrap;
+  margin: 20px;
+}
 h1 {
   color: rgb(43, 46, 48);
+  font-family: "Libre Franklin", sans-serif;
   font-size: clamp(1.5rem, 4vw, 3rem);
   font-weight: 700;
   margin: 0;
   line-height: 1.05;
 }
+#post {
+  flex: 3;
+  margin-right: 20px;
+}
+.post {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.post h2 {
+  color: rgb(43, 46, 48);
+}
+.post .meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
+.read-more:hover {
+  text-decoration: underline;
+} 
+#sidebar {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+#sidebar h3 {
+  margin-top: 0;
+}
+footer {
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: rgb(43, 46, 48);
+}
 
-/* Hero banner */
+
+/* Hero banner 
 .hero {
   position: relative;
   width: 100%;
@@ -32,7 +91,7 @@ h1 {
 }
 
 .hero::after {
-  content: "";
+  content: "navigation";
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.35));
