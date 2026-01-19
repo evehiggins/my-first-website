@@ -11,51 +11,135 @@
 </head>
 
 <body>
-
-    <header class="hero" role="banner" aria-label="Site banner">
-        <div class="hero-content">
-            <h1>Hello, this is my first website</h1>
-            <p class="hero-sub">Welcome to Dev Diaries</p>
-            
-        </div>
-        <nav role="navigation" aria-label="Main navigation">
-        <a href="#home">Home</a></li>
-        <a href="#about">About</a></li>
-        <a href="#services">Services</a></li>
-        <a href="#contact">Contact</a></li>
+    <header>
+    <nav>
+      <div class="logo">
+        <h1>Eve's DevDiaries</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+      </ul>
     </nav>
-    </header>
-
-
+  </header>
 
     <main>
-        <section id="post">
-            <article class="post">
-                <h2>My First Blog Post</h2>
-                <p class="meta">Published on January 8, 2026 ! Tags: 
-                    <span class="tag">Web Development</span>, 
-                    <span class="tag">HTML</span></p>
-                <p>This is the content of my first blog post. I'm excited to share my journey in web development with you! In this post, I'll be discussing my overall vision for this website.</p>
-                <img src="images/Website Plan.jpg" alt="Description of image">
-                <a href="#" class="Read more">Read more</a>
-                
-            </article>
+        <section class="hero">
+            <h1>Welcome to My First Website</h1>
+            <p>This is a simple website created to document my journey in web development. Here, you'll find various labs and projects that I've worked on as I learn more about HTML, CSS, and JavaScript.</p>
         </section>
-        <aside id="sidebar">
-            <h3>Tags</h3>
-            <ul>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">JavaScript</a></li>
-            </ul>
-        </aside>
+
+        <div class="content-wrapper">
+            <section class="gallery">
+                <h2>My Entries</h2>
+
+                <div class="gallery-grid">
+                
+                    <div class="gallery-item">
+                        <a href="pages/lab1.html">
+                        <img src="images/Website Plan.jpg" alt="Lab 1 project screenshot showing a basic blog layout with header and navigation.">
+                        <div class="gallery-overlay">
+                            <h3>Lab 1</h3>
+                            <p>08/Jan/2026</p>
+                        </div>
+                        </a>
+                    </div>
+                <div class="gallery-item">
+                    <a href="pages/lab2.html">
+                      <img src="images/lab2_hovereffect.jpg" alt="Lab 2 project screenshot of the VS code interface displaying HTML and CSS code for a personal website.">
+                      <div class="gallery-overlay">
+                        <h3>Lab 2</h3>
+                        <p>15/Jan/2026</p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                <div class="gallery-item">
+                    <img src="images/placeholder.jpg" alt="Coming soon">
+                    <div class="gallery-overlay">
+                      <h3>Coming Soon</h3>
+                      <p>Coming Soon</p>
+                    </div>
+                  </div>
+
+              <div class="gallery-item">
+                    <img src="images/placeholder.jpg" alt="Coming soon">
+                    <div class="gallery-overlay">
+                      <h3>Coming Soon</h3>
+                      <p>Coming Soon</p>
+                    </div>
+                  </div>
+
+              <div class="gallery-item">
+                    <img src="images/placeholder.jpg" alt="Coming soon">
+                    <div class="gallery-overlay">
+                      <h3>Coming Soon</h3>
+                      <p>Coming Soon</p>
+                    </div>
+                  </div>
+
+                  
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <section class="about-me">
+                    <h2>About Me</h2>
+                    <p>Hi! I'm Eve, a student at the University of Toronto exploring the exciting world of web development. I'm passionate about creating beautiful, functional websites and learning new technologies every day.</p>
+                    <a href="pages/about.html" class="read-more">Read More</a>
+                </section>
+
+                <section class="recent-posts">
+                    <h2>Recent Posts</h2>
+                    <ul class="posts-list">
+                        <li>
+                            <a href="pages/lab2.html">
+                                <h4>Lab 2: Styling with CSS</h4>
+                                <p class="post-date">15/Jan/2026</p>
+                                <p class="post-excerpt">Explored advanced CSS techniques including layouts, flexbox, and responsive design.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/lab1.html">
+                                <h4>Lab 1: Introduction to HTML</h4>
+                                <p class="post-date">08/Jan/2026</p>
+                                <p class="post-excerpt">Learned the fundamentals of HTML structure and semantic markup.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
     </main>
 
+ <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Eve's DevDiaries</h3>
+        <p>Documenting my journey in web development</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Email: eve.higgins@mail.utoronto.ca</p>
+<p>Website: X</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 My DevDiaries. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
-<footer>
-    <p>&copy; Looks like you made it to the end!</p>
-</footer>
 </html>
 
 
