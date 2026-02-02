@@ -652,3 +652,33 @@ main {
     gap: 2rem;
   }
 }
+
+/* Project Diaries Section */
+.projectdiaries {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgb(70, 151, 166);
+  margin-bottom: 1rem
+}
+
+.projectdiaries h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.projectdiaries p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.projectdiaries-body {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  border-left: 4px solid rgb(70, 151, 166);
