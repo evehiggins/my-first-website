@@ -338,7 +338,7 @@ main {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #667eea;
+  border-top: 4px solid rgb(70, 151, 166);
   margin-bottom: 3rem;
 }
 
@@ -360,6 +360,13 @@ main {
   margin: 0 auto 4rem;
 }
 
+.lab-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
 .learning-section {
   background-color: white;
   padding: 2rem;
@@ -369,7 +376,7 @@ main {
 }
 
 .learning-section h3 {
-  color: #667eea;
+  color: rgb(70, 151, 166);
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
@@ -432,17 +439,17 @@ main {
 }
 /* Reflection Section */
 .lab-reflection {
-  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   background-color: #ecf0f1;
   border-radius: 8px;
-  border-left: 4px solid #3498db;
+  border-left: 4px solid rgb(70, 151, 166);
 }
 
 .lab-reflection h2 {
   color: #2c3e50;
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .lab-reflection p {
@@ -476,7 +483,7 @@ main {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #3498db;
+  border-top: 4px solid rgb(70, 151, 166);
 }
 
 .about-me h2 {
@@ -498,7 +505,7 @@ main {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e74c3c;
+  border-top: 4px solid rgb(42, 96, 126);
 }
 
 .recent-posts h2 {
