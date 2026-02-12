@@ -681,4 +681,42 @@ main {
   padding: 2rem;
   background-color: #ecf0f1;
   border-radius: 8px;
-  border-left: 4px solid rgb(70, 151, 166);
+  border-left: 4px solid rgb(70, 151, 166);}
+
+  /* Making a scrollable container for lab 5 */
+  
+  /* Basic reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+body {
+ font-family: "Libre Franklin", sans-serif;
+}
+
+
+/* Main 2-column layout */
+.scrolly-container {
+ display: flex;
+ min-height: 100vh;
+}
+
+
+/* Left side (visual stage) */
+.visual-column {
+ width: 50%;
+ height: 100vh;
+ background: white;
+ padding: 24px;
+}
+
+
+/* Right side (story) */
+.text-column {
+ width: 50%;
+ padding: 24px;
+ background: #f3f3f3;
+}
