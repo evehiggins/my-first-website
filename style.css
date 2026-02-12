@@ -707,15 +707,18 @@ body {
 
 /* Left side (visual stage) */
 .visual-column {
+ position: fixed;
+ left: 0;
+ top: 0;
  width: 50%;
  height: 100vh;
  background: white;
  padding: 24px;
 }
 
-
 /* Right side (story) */
 .text-column {
+ margin-left: 50%;
  width: 50%;
  padding: 24px;
  background: #f3f3f3;
