@@ -683,6 +683,8 @@ main {
   border-radius: 8px;
   border-left: 4px solid rgb(70, 151, 166);}
 
+
+
   /* Making a scrollable container for lab 5 */
   
   /* Basic reset */
@@ -759,7 +761,7 @@ body {
 
 .story-step {
  min-height: 90vh;
- padding: 40px 0;
+ padding: 200px 60px;
 }
 
 
