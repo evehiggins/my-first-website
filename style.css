@@ -699,7 +699,7 @@ body {
 
 
 /* Main 2-column layout */
-.scrolly-container {
+ .scrolly-container {
  display: flex;
  min-height: 100vh;
 }
@@ -715,6 +715,8 @@ body {
  background: white;
  padding: 24px;
 }
+
+
 
 /* Right side (story) */
 .text-column {
@@ -776,3 +778,6 @@ body {
 .spacer {
  height: 20vh;
 }
+
+
+
