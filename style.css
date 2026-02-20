@@ -407,6 +407,7 @@ main {
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .screenshot-grid figure {
@@ -677,7 +678,7 @@ main {
 }
 
 .projectdiaries-body {
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
   padding: 2rem;
   background-color: #ecf0f1;
   border-radius: 8px;
