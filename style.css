@@ -75,6 +75,16 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo a:hover {
+  opacity: 0.8;
+}
+
 /* Navigation Links */
 .nav-links {
   display: flex;
