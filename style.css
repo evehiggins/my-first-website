@@ -399,6 +399,32 @@ main {
 .learning-section li {
   margin-bottom: 0.5rem;
 }
+
+/* Screen Recording Section */
+.lab-screenrecording {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.lab-screenrecording h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.recording-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.recording-container video {
+  border-radius: 4px;
+}
+
 /* Screenshot Gallery */
 .lab-images {
   margin-bottom: 4rem;
